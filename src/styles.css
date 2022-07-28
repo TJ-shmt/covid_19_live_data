@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap");
+/* loads font from Google  */
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  background-color: rgb(118, 138, 194);
+}
+
+/* Layout */
+#grid-container {
+  display: grid;
+  grid-template-columns: auto 1000px auto;
+}
+
+/* make spacer visible */
+/*
+.spacer {
+  background-color: red;
+}
+*/
+
+h1 {
+  color: white;
+}
+
+#content {
+  clear: both;
+  height: 700px;
+  overflow: auto;
+  background-color: white;
+  border-radius: 10px;
+  padding-left: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+/* table styling */
+table {
+  background-color: white;
+  width: 100%;
+}
+
+th.country {
+  width: 33.33%;
+}
+
+th.number {
+  width: 16.66%;
+}
+
+th {
+  height: 3rem;
+  background-color: rgba(255, 255, 255, 0.9);
+  cursor: pointer;
+  position: sticky;
+  top: 0;
+  text-align: left;
+}
+
+td {
+  height: 2rem;
+}
+
+/* hihglighter */
+tbody tr:hover {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  border-radius: 5px;
+}

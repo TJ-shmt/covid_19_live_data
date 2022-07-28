@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>First Assignment</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <script src="https://www.kryogenix.org/code/browser/sorttable/sorttable.js"></script>
+  </head>
+
+  <body>
+    <div id="grid-container">
+      <div class="spacer"></div>
+      <div id="header">
+        <h1>Corona Virus Live Data</h1>
+      </div>
+      <div class="spacer"></div>
+      <div class="spacer"></div>
+      <!-- Content -->
+
+      <div id="content">
+        <table id="addSort" class="scrollTable">
+          <thead>
+            <tr>
+              <th class="country sorttable_alpha">Country</th>
+              <th class="number sorttable_numeric">Cases</th>
+              <th class="number sorttable_numeric">New Cases Today</th>
+              <th class="number sorttable_numeric">Recovered</th>
+              <th class="number sorttable_numeric">Deaths</th>
+            </tr>
+          </thead>
+          <tbody id="coronaTable"></tbody>
+        </table>
+      </div>
+
+      <!-- Content end -->
+      <div class="spacer"></div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
