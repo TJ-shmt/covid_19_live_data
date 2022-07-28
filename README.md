@@ -1,2 +1,2 @@
 # covid_19_live_data
-Created with CodeSandbox
+Using an API's live data on Covid-19 to map it. 
